@@ -16,3 +16,4 @@ The scripts uses the following **required** input parameters:
  + **TOF-MRA**
  + **Right Hemishphere Artery Label Number** 
 
+The cerebral arterial tree segmentation is filtered using the target arteries label numbers. If artery is found in both hemishpere enter the left hemishpere label as the target artery and the right hemisphere in the corsponding argument parameter. The minimum Euclidean distance between each voxel in the mask and the artery of choice is computed, and saved as a distance map.

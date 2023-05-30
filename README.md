@@ -1,5 +1,6 @@
 # Cerebral-Artery-Distance-Map
-<img align="right" src="https://github.com/fetouh15/Cerebral-Artery-Distance-Map/assets/38469694/cfce0842-a735-48d6-ae9e-0d04f6e0e42f"> 
+<img align="right" height="800" width="400" src="https://github.com/fetouh15/Cerebral-Artery-Distance-Map/assets/38469694/8bfef7a1-6a8a-414e-8f26-cf9e9a313192"> 
+
 
 ## Description
 This project computes the minimum Euclidean distance between each voxel in the mask and the artery of choice.
@@ -17,3 +18,5 @@ The scripts uses the following **required** input parameters:
  + **Right Hemishphere Artery Label Number** 
 
 The cerebral arterial tree segmentation is filtered using the target arteries label numbers. If artery is found in both hemishpere enter the left hemishpere label as the target artery and the right hemisphere in the corsponding argument parameter. The minimum Euclidean distance between each voxel in the mask and the artery of choice is computed, and saved as a distance map.
+
+
